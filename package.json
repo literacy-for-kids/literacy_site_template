@@ -1,0 +1,22 @@
+{
+  "name": "literacy-site-theme",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.js"
+  },
+  "peerDependencies": {
+    "@docusaurus/core": "^3.0.0",
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "swizzle": "swizzle"
+  }
+}
