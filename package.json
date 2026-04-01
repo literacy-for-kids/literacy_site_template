@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "Reusable Docusaurus v3 theme package for Literacy for Kids curriculum sites",
   "main": "./src/index.js",
+  "type": "commonjs",
   "exports": {
     ".": "./src/index.js",
+    "./package.json": "./package.json",
     "./navbarItems": "./src/data/navbarItems.js",
     "./footerConfig": "./src/data/footerConfig.js",
-    "./ecosystemLinks": "./src/data/ecosystemLinks.js"
+    "./ecosystemLinks": "./src/data/ecosystemLinks.js",
+    "./EcosystemLinks": "./src/theme/EcosystemLinks/index.js",
+    "./LiteracyNavbar": "./src/theme/LiteracyNavbar/index.js",
+    "./LiteracyFooter": "./src/theme/LiteracyFooter/index.js"
   },
   "files": [
     "src"
+  ],
+  "sideEffects": [
+    "**/*.css"
   ],
   "keywords": [
     "docusaurus",
@@ -19,6 +27,9 @@
     "curriculum",
     "education"
   ],
+  "engines": {
+    "node": ">=18.0"
+  },
   "peerDependencies": {
     "@docusaurus/core": "^3.0.0",
     "react": "^18.0.0",
@@ -27,6 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/literacy-for-kids/literacy-site-theme.git"
+    "url": "git+https://github.com/literacy-for-kids/literacy_site_template.git"
+  },
+  "homepage": "https://github.com/literacy-for-kids/literacy_site_template",
+  "bugs": {
+    "url": "https://github.com/literacy-for-kids/literacy_site_template/issues"
   }
 }

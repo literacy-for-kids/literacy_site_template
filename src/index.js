@@ -32,3 +32,4 @@ literacySiteTheme.validateOptions = function ({ options }) {
 };
 
 module.exports = literacySiteTheme;
+module.exports.default = literacySiteTheme;
