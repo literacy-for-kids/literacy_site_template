@@ -23,7 +23,9 @@ const fallbackLinks = Array.isArray(ecosystemData)
   ? ecosystemData
   : (ecosystemData.ecosystemLinks || []);
 
-const displayLinks = ecosystemLinks.length > 0
+const hasCurriculumMetadata = ecosystemData.hub && Array.isArray(ecosystemData.curricula);
+
+const displayLinks = hasCurriculumMetadata
   ? ecosystemLinks
   : fallbackLinks;
 
