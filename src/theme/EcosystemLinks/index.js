@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-
-const ecosystemData = require('../../data/ecosystemLinks');
+import ecosystemData from '../../data/ecosystemLinks';
 
 const ecosystemLinks = [
   ...(ecosystemData.hub
@@ -20,9 +19,13 @@ const ecosystemLinks = [
   }))),
 ];
 
+const fallbackLinks = Array.isArray(ecosystemData)
+  ? ecosystemData
+  : (ecosystemData.ecosystemLinks || []);
+
 const displayLinks = ecosystemLinks.length > 0
   ? ecosystemLinks
-  : (ecosystemData.ecosystemLinks || ecosystemData);
+  : fallbackLinks;
 
 export default function EcosystemLinks() {
   return (
