@@ -1,12 +1,13 @@
 {
   "name": "literacy-site-theme",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Reusable Docusaurus v3 theme package for Literacy for Kids curriculum sites",
   "main": "./src/index.js",
   "type": "commonjs",
   "exports": {
     ".": "./src/index.js",
     "./package.json": "./package.json",
+    "./ecosystem": "./src/data/ecosystemLinks.js",
     "./navbarItems": "./src/data/navbarItems.js",
     "./footerConfig": "./src/data/footerConfig.js",
     "./ecosystemLinks": "./src/data/ecosystemLinks.js",

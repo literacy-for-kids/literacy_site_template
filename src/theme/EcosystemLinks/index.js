@@ -1,38 +1,28 @@
 import React from 'react';
 import styles from './styles.module.css';
 
+const ecosystemData = require('../../data/ecosystemLinks');
+
 const ecosystemLinks = [
-  {
-    label: 'Literacy for Kids',
-    description: 'Project Hub',
-    href: 'https://literacy-for-kids.github.io/literacy_for_kids/',
-  },
-  {
-    label: 'Decision Literacy',
-    description: 'Reasoning and choices',
-    href: 'https://literacy-for-kids.github.io/decision_literacy_for_kids/',
-  },
-  {
-    label: 'Computer Literacy',
-    description: 'Understanding technology',
-    href: 'https://literacy-for-kids.github.io/computer_literacy_for_kids/',
-  },
-  {
-    label: 'Media Literacy',
-    description: 'Understanding information',
-    href: 'https://literacy-for-kids.github.io/media_literacy_for_kids/',
-  },
-  {
-    label: 'Financial Literacy',
-    description: 'Understanding money',
-    href: 'https://literacy-for-kids.github.io/financial_literacy_for_kids/',
-  },
-  {
-    label: 'Civic Literacy',
-    description: 'Understanding governance',
-    href: 'https://literacy-for-kids.github.io/civic_literacy_for_kids/',
-  },
+  ...(ecosystemData.hub
+    ? [
+        {
+          label: ecosystemData.hub.label,
+          description: 'Project Hub',
+          href: ecosystemData.hub.href,
+        },
+      ]
+    : []),
+  ...((ecosystemData.curricula || []).map((curriculum) => ({
+    label: curriculum.label,
+    description: curriculum.shortDescription || curriculum.description,
+    href: curriculum.href,
+  }))),
 ];
+
+const displayLinks = ecosystemLinks.length > 0
+  ? ecosystemLinks
+  : (ecosystemData.ecosystemLinks || ecosystemData);
 
 export default function EcosystemLinks() {
   return (
@@ -44,7 +34,7 @@ export default function EcosystemLinks() {
           understand the systems that shape modern life.
         </p>
         <div className={styles.ecosystemGrid}>
-          {ecosystemLinks.map((link) => (
+          {displayLinks.map((link) => (
             <a
               key={link.href}
               className={styles.ecosystemCard}
