@@ -105,4 +105,3 @@ const ecosystemLinks = [
 module.exports = ecosystemLinks;
 module.exports.hub = hub;
 module.exports.curricula = curricula;
-module.exports.ecosystemLinks = ecosystemLinks;
