@@ -2,32 +2,22 @@ import React from 'react';
 import styles from './styles.module.css';
 import ecosystemData from '../../data/ecosystemLinks';
 
-const ecosystemLinks = [
-  ...(ecosystemData.hub
-    ? [
-        {
-          label: ecosystemData.hub.label,
-          description: 'Project Hub',
-          href: ecosystemData.hub.href,
-        },
-      ]
-    : []),
-  ...((ecosystemData.curricula || []).map((curriculum) => ({
-    label: curriculum.label,
-    description: curriculum.shortDescription || curriculum.description,
-    href: curriculum.href,
-  }))),
-];
-
-const fallbackLinks = Array.isArray(ecosystemData)
-  ? ecosystemData
-  : (ecosystemData.ecosystemLinks || []);
-
 const hasCurriculumMetadata = ecosystemData.hub && Array.isArray(ecosystemData.curricula);
 
 const displayLinks = hasCurriculumMetadata
-  ? ecosystemLinks
-  : fallbackLinks;
+  ? [
+      {
+        label: ecosystemData.hub.label,
+        description: 'Project Hub',
+        href: ecosystemData.hub.href,
+      },
+      ...ecosystemData.curricula.map((curriculum) => ({
+        label: curriculum.label,
+        description: curriculum.shortDescription || curriculum.description,
+        href: curriculum.href,
+      })),
+    ]
+  : ecosystemData;
 
 export default function EcosystemLinks() {
   return (

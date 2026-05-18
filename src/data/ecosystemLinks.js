@@ -77,9 +77,9 @@ const curricula = [
   },
   {
     slug: 'civic',
-    icon: '🏛',
+    icon: '🏛️',
     label: 'Civic Literacy',
-    title: '🏛 Civic Literacy',
+    title: '🏛️ Civic Literacy',
     href: 'https://literacy-for-kids.github.io/civic_literacy_for_kids/',
     tagline: 'Understand how communities organize, make rules, and share decisions.',
     description: 'How societies organize themselves and how citizens shape communities.',
