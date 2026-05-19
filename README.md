@@ -137,6 +137,52 @@ literacy-site-theme/
 
 ---
 
+## Usage in curriculum sites
+
+All curriculum sites import ecosystem data using the canonical pattern:
+
+```js
+import {createRequire} from 'node:module';
+const require = createRequire(import.meta.url);
+const {hub, curricula} = require('literacy-site-theme/ecosystem');
+```
+
+**In `docusaurus.config.js`** — build the navbar dropdown:
+
+```js
+{
+  type: 'dropdown',
+  label: 'Literacy for Kids',
+  position: 'left',
+  items: [
+    {label: 'Hub', href: hub.href},
+    ...curricula.map((c) => ({
+      label: c.label.replace(' Literacy', ''),
+      href: c.href,
+    })),
+  ],
+}
+```
+
+**In `sidebars.js`** — build the "Explore Other Literacies" sidebar category:
+
+```js
+const currentSiteHref = 'https://literacy-for-kids.github.io/<repo-name>/';
+
+{
+  type: 'category',
+  label: 'Explore Other Literacies',
+  items: [
+    {type: 'link', label: hub.label, href: hub.href},
+    ...curricula
+      .filter((c) => c.href !== currentSiteHref)
+      .map((c) => ({type: 'link', label: c.label, href: c.href})),
+  ],
+}
+```
+
+---
+
 ## License
 
 MIT
