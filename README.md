@@ -181,6 +181,17 @@ const currentSiteHref = 'https://literacy-for-kids.github.io/<repo-name>/';
 }
 ```
 
+### When you need the configureWebpack plugin
+
+Sites that import React components from the theme (e.g.,
+`import EcosystemLinks from '@theme/EcosystemLinks'`) need a custom
+configureWebpack plugin to transpile the theme's JSX source. Sites
+that only import data (e.g., `const {hub, curricula} =
+require('literacy-site-theme/ecosystem')`) do NOT need the plugin.
+
+Reference implementation: see `transpileLiteracyTheme` in
+`media_literacy_for_kids/website/docusaurus.config.js`.
+
 ---
 
 ## License
