@@ -55,7 +55,7 @@ const footerConfig = {
         },
         {
           label: 'Environmental Systems Literacy',
-          href: 'https://literacy-for-kids.github.io/environmental_system_literacy/',
+          href: 'https://literacy-for-kids.github.io/Environmental_system_literacy_for_kids/',
         },
         {
           label: 'Health Systems Literacy',
