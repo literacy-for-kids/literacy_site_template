@@ -45,6 +45,22 @@ const footerConfig = {
           label: 'Civic Literacy',
           href: 'https://literacy-for-kids.github.io/civic_literacy_for_kids/',
         },
+        {
+          label: 'Emotional & Social Literacy',
+          href: 'https://literacy-for-kids.github.io/emotional_and_social_literacy_for_kids/',
+        },
+        {
+          label: 'Legal Literacy',
+          href: 'https://literacy-for-kids.github.io/legal_literacy_for_kids/',
+        },
+        {
+          label: 'Environmental Systems Literacy',
+          href: 'https://literacy-for-kids.github.io/Environmental_system_literacy_for_kids/',
+        },
+        {
+          label: 'Health Systems Literacy',
+          href: 'https://literacy-for-kids.github.io/health_literacy_for_kids/',
+        },
       ],
     },
   ],

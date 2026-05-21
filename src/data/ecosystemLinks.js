@@ -128,7 +128,7 @@ const curricula = [
     icon: '🌍',
     label: 'Environmental Systems Literacy',
     title: '🌍 Environmental Systems Literacy',
-    href: 'https://literacy-for-kids.github.io/environmental_system_literacy/',
+    href: 'https://literacy-for-kids.github.io/Environmental_system_literacy_for_kids/',
     tagline: 'Understand the Earth as a physical system — and where human infrastructure fits into it.',
     description: 'How planetary systems work and how human activity interfaces with them.',
     shortDescription: 'Understanding Earth systems',
