@@ -196,4 +196,4 @@ Reference implementation: see `transpileLiteracyTheme` in
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE)
