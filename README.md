@@ -134,6 +134,10 @@ literacy-site-theme/
 | Media Literacy | https://literacy-for-kids.github.io/media_literacy_for_kids/ |
 | Financial Literacy | https://literacy-for-kids.github.io/financial_literacy_for_kids/ |
 | Civic Literacy | https://literacy-for-kids.github.io/civic_literacy_for_kids/ |
+| Emotional & Social Literacy | https://literacy-for-kids.github.io/emotional_and_social_literacy_for_kids/ |
+| Legal Literacy | https://literacy-for-kids.github.io/legal_literacy_for_kids/ |
+| Environmental Systems Literacy | https://literacy-for-kids.github.io/Environmental_system_literacy_for_kids/ |
+| Health Systems Literacy | https://literacy-for-kids.github.io/health_literacy_for_kids/ |
 
 ---
 
