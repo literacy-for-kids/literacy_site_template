@@ -24,9 +24,15 @@
   "keywords": [
     "docusaurus",
     "docusaurus-theme",
+    "docusaurus-plugin",
     "literacy",
     "curriculum",
-    "education"
+    "education",
+    "k-12",
+    "k-12-education",
+    "open-source-education",
+    "digital-literacy",
+    "systems-thinking"
   ],
   "engines": {
     "node": ">=18.0"
