@@ -1,6 +1,6 @@
 # Contributing to literacy-site-theme
 
-`literacy-site-theme` is the shared Docusaurus theme package for the [Literacy for Kids](https://literacy-for-kids.github.io/literacy_for_kids/) curriculum ecosystem. It provides shared CSS, navigation components, and ecosystem link data used by all nine curriculum sites.
+`literacy-site-theme` is the shared Docusaurus theme package for the [Literacy for Kids](https://www.literacy-for-kids.com/) curriculum ecosystem. It provides shared CSS, navigation components, and ecosystem link data used by all nine curriculum sites.
 
 ---
 

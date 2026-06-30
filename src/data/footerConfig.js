@@ -14,7 +14,7 @@ const footerConfig = {
       items: [
         {
           label: 'Project Hub',
-          href: 'https://literacy-for-kids.github.io/literacy_for_kids/',
+          href: 'https://www.literacy-for-kids.com/',
         },
         {
           label: 'GitHub',
@@ -27,39 +27,39 @@ const footerConfig = {
       items: [
         {
           label: 'Decision Literacy',
-          href: 'https://literacy-for-kids.github.io/decision_literacy_for_kids/',
+          href: 'https://decision.literacy-for-kids.com/',
         },
         {
           label: 'Computer Literacy',
-          href: 'https://literacy-for-kids.github.io/computer_literacy_for_kids/',
+          href: 'https://computer.literacy-for-kids.com/',
         },
         {
           label: 'Media Literacy',
-          href: 'https://literacy-for-kids.github.io/media_literacy_for_kids/',
+          href: 'https://media.literacy-for-kids.com/',
         },
         {
           label: 'Financial Literacy',
-          href: 'https://literacy-for-kids.github.io/financial_literacy_for_kids/',
+          href: 'https://financial.literacy-for-kids.com/',
         },
         {
           label: 'Civic Literacy',
-          href: 'https://literacy-for-kids.github.io/civic_literacy_for_kids/',
+          href: 'https://civic.literacy-for-kids.com/',
         },
         {
           label: 'Emotional & Social Literacy',
-          href: 'https://literacy-for-kids.github.io/emotional_and_social_literacy_for_kids/',
+          href: 'https://emotional.literacy-for-kids.com/',
         },
         {
           label: 'Legal Literacy',
-          href: 'https://literacy-for-kids.github.io/legal_literacy_for_kids/',
+          href: 'https://legal.literacy-for-kids.com/',
         },
         {
           label: 'Environmental Systems Literacy',
-          href: 'https://literacy-for-kids.github.io/Environmental_system_literacy_for_kids/',
+          href: 'https://environmental.literacy-for-kids.com/',
         },
         {
           label: 'Health Systems Literacy',
-          href: 'https://literacy-for-kids.github.io/health_literacy_for_kids/',
+          href: 'https://health.literacy-for-kids.com/',
         },
       ],
     },

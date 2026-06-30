@@ -4,27 +4,27 @@ import styles from './styles.module.css';
 const navbarLinks = [
   {
     label: 'Literacy for Kids',
-    href: 'https://literacy-for-kids.github.io/literacy_for_kids/',
+    href: 'https://www.literacy-for-kids.com/',
   },
   {
     label: 'Decision',
-    href: 'https://literacy-for-kids.github.io/decision_literacy_for_kids/',
+    href: 'https://decision.literacy-for-kids.com/',
   },
   {
     label: 'Computer',
-    href: 'https://literacy-for-kids.github.io/computer_literacy_for_kids/',
+    href: 'https://computer.literacy-for-kids.com/',
   },
   {
     label: 'Media',
-    href: 'https://literacy-for-kids.github.io/media_literacy_for_kids/',
+    href: 'https://media.literacy-for-kids.com/',
   },
   {
     label: 'Financial',
-    href: 'https://literacy-for-kids.github.io/financial_literacy_for_kids/',
+    href: 'https://financial.literacy-for-kids.com/',
   },
   {
     label: 'Civic',
-    href: 'https://literacy-for-kids.github.io/civic_literacy_for_kids/',
+    href: 'https://civic.literacy-for-kids.com/',
   },
 ];
 

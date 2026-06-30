@@ -1,6 +1,6 @@
 # literacy-site-theme
 
-Reusable Docusaurus v3 theme package for the [Literacy for Kids](https://literacy-for-kids.github.io/literacy_for_kids/) curriculum ecosystem.
+Reusable Docusaurus v3 theme package for the [Literacy for Kids](https://www.literacy-for-kids.com/) curriculum ecosystem.
 
 ---
 
@@ -128,12 +128,12 @@ literacy-site-theme/
 
 | Curriculum | URL |
 |---|---|
-| Literacy for Kids Hub | https://literacy-for-kids.github.io/literacy_for_kids/ |
-| Decision Literacy | https://literacy-for-kids.github.io/decision_literacy_for_kids/ |
-| Computer Literacy | https://literacy-for-kids.github.io/computer_literacy_for_kids/ |
-| Media Literacy | https://literacy-for-kids.github.io/media_literacy_for_kids/ |
-| Financial Literacy | https://literacy-for-kids.github.io/financial_literacy_for_kids/ |
-| Civic Literacy | https://literacy-for-kids.github.io/civic_literacy_for_kids/ |
+| Literacy for Kids Hub | https://www.literacy-for-kids.com/ |
+| Decision Literacy | https://decision.literacy-for-kids.com/ |
+| Computer Literacy | https://computer.literacy-for-kids.com/ |
+| Media Literacy | https://media.literacy-for-kids.com/ |
+| Financial Literacy | https://financial.literacy-for-kids.com/ |
+| Civic Literacy | https://civic.literacy-for-kids.com/ |
 
 ---
 
@@ -167,7 +167,7 @@ const {hub, curricula} = require('literacy-site-theme/ecosystem');
 **In `sidebars.js`** — build the "Explore Other Literacies" sidebar category:
 
 ```js
-const currentSiteHref = 'https://literacy-for-kids.github.io/<repo-name>/';
+const currentSiteHref = 'https://<subdomain>.literacy-for-kids.com/';
 
 {
   type: 'category',
