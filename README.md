@@ -19,8 +19,10 @@ Reusable Docusaurus v3 theme package for the [Literacy for Kids](https://www.lit
 ### From GitHub
 
 ```bash
-npm install literacy-for-kids/literacy-site-theme
+npm install literacy-for-kids/literacy_site_template
 ```
+
+The GitHub repository is `literacy-for-kids/literacy_site_template`; its npm package name is `literacy-site-theme`. Keep `literacy-site-theme` in theme registration and package imports below.
 
 ### From a local path (monorepo / development)
 
@@ -100,7 +102,7 @@ module.exports = {
 ## Repository Structure
 
 ```
-literacy-site-theme/
+literacy_site_template/
 ├── package.json
 ├── src/
 │   ├── index.js                          # Theme plugin entry point
